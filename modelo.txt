@@ -1,0 +1,42 @@
+A todas las clases agregar 
+	constructor por defecto
+	constructor por parametros
+	GETTERS Y SETTERS
+	To String()
+	encapsular
+
+clase Usuario
+	Integer id;
+	String nombre;
+	String username;
+	String email;
+	String direccion;
+	String telefono;
+	String tipo;
+	String password;
+
+clase Producto
+	Integer id;
+	String nombre;
+	String descripcion;
+	String imagen;
+	double precio;
+	int cantidad;
+	int stock;
+
+clase Orden
+	(import java.util.Date;)
+	Integer id;
+	String numero;
+	Date fechaCreacion;
+	Date fechaRecibida;
+	double total;
+
+clase Detalleorden
+	Integer id;
+	String nombre;
+	double cantidad;
+	double precio;
+	double total;
+	
+
